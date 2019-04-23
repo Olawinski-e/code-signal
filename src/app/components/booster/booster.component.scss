@@ -1,0 +1,104 @@
+@import "../../../styles.scss";
+
+.booster {
+  margin: 38px 0 0 38px;
+  display: flex;
+  flex-direction: center;
+  flex-direction: column;
+
+  .text {
+    display: flex;
+    align-items: center;
+
+    h3 {
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+    .buy-boosters {
+      cursor: pointer;
+      position: fixed;
+      top: 468px;
+      left: 45%;
+      background-color: $bg-color;
+      border: 1px solid white;
+      border-radius: 50px;
+      height: 43.96px;
+      width: 159.85px;
+
+      .white {
+        color: white;
+        font-weight: 300;
+        margin-right: 10px;
+      }
+
+      .box {
+        color: white;
+      }
+    }
+    .buy-boosters:hover {
+      background-color: white;
+
+      .white {
+        color: $text-color;
+      }
+
+      .box {
+        color: $text-color;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .boost-line {
+    display: flex;
+    justify-content: space-between;
+
+    .circle-boost-white {
+      margin-top: 54px;
+      width: 140px;
+      height: 140px;
+      border: 1px solid white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .circle-boost-red {
+      margin-top: 54px;
+      width: 140px;
+      height: 140px;
+      border: 1px solid $bg-red;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .circle-boost-blue {
+      margin-top: 54px;
+      width: 140px;
+      height: 140px;
+      border: 2px solid $bg-blue;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .h4 {
+      font-size: 34px;
+      font-weight: 300;
+    }
+
+    .click {
+      margin-top: 38px;
+      font-size: 10px;
+      position: absolute;
+    }
+  }
+}

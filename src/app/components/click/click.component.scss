@@ -1,0 +1,51 @@
+@import "../../../styles.scss";
+
+.click-section {
+  display: flex;
+  height: 369px;
+  justify-content: center;
+  align-items: center;
+
+  button.click {
+    background-color: rgba(255, 255, 255, 0%);
+    height: 78px;
+    width: 258px;
+    border: 1px solid $bg-blue;
+    border-radius: 50px;
+    color: $text-blue;
+    font-size: 32px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  button.click:hover {
+    background-color: $bg-blue;
+    color: $text-color;
+    font-weight: 400;
+  }
+
+  .line-left {
+    position: absolute;
+    background-color: white;
+    left: 109px;
+    height: 15vh;
+    width: 6px;
+    top: 30%;
+  }
+
+  .dot {
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    height: 8px;
+    width: 8px;
+  }
+
+  .line-right {
+    position: absolute;
+    background-color: white;
+    left: 803px;
+    height: 15vh;
+    width: 6px;
+    top: 20%;
+  }
+}

@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+$bg-color: #020320;
+$bg-window: #02031c;
+$bg-light: rgba(255, 255, 255, 0.06);
+$bg-grey: rgba(255, 255, 255, 0.11);
+$bg-blue: #08a9c7;
+$bg-red: #cc5151;
+$text-color: #020320;
+$text-white: #ffffff;
+$text-blue: #08a9c7;
+$text-red: #cc5151;
+$text-grey: rgba(255, 255, 255, 0.43);
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+  Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+body {
+  width: 100%;
+  height: 885.5px;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  color: $text-white;
+  font-family: $font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

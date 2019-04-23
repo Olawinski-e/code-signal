@@ -1,0 +1,37 @@
+<section class="header">
+  <div class="nav-align">
+    <div class="nav-1">
+      <h1>Welcome to XP Farmer</h1>
+
+      <nav class="nav">
+        <a href="#" class="nav-item nav-item1"
+          >Home
+          <div class="line"></div
+        ></a>
+
+        <a href="#" class="nav-item nav-item2">
+          Parameters
+          <div class="line"></div
+        ></a>
+      </nav>
+    </div>
+
+    <div class="nav-2">
+      <div class="nav-text">
+        <div *ngIf="user" class="text-14px user-name">
+          Hello {{ user.firstname }} {{ user.lastname }}
+        </div>
+        <p class="text-10px text-left">Level: {{ user.level }}</p>
+        <div class="progress"><div class="progress-bar"></div></div>
+        <p class="text-10px grey next-level">
+          Next level in 1234 points
+        </p>
+      </div>
+
+      <!-- prettier-ignore -->
+      <div class="nav-img">
+        <img [src]="user.avatar" alt="user avatar" class="img" />
+      </div>
+    </div>
+  </div>
+</section>

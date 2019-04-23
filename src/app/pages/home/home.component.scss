@@ -1,0 +1,23 @@
+@import "../../../styles.scss";
+
+.window {
+  display: flex;
+  height: 369px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  background-color: $bg-window;
+}
+
+.window1 {
+  border-right: 1px solid rgba(255, 255, 255, 0.09);
+  width: 50%;
+  height: 369px;
+}
+
+.window2 {
+  width: 50%;
+  height: 369px;
+}
+
+.stat-part {
+  height: 369px;
+}
