@@ -8,7 +8,7 @@ import { User } from "src/app/models/user";
   styleUrls: ["./header.component.scss"]
 })
 export class HeaderComponent implements OnInit {
-  public user: User = null;
+  public user: User = this._usersService.user;
 
   constructor(private _usersService: UsersService) {}
 
