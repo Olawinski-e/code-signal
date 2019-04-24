@@ -2,7 +2,7 @@
   <div class="line-left"></div>
   <div class="dot"></div>
   <div class="line-right"></div>
-  <button type="submit" class="click" onclick="alert(`hello`)">
-    CLICK ME !
+  <button type="submit" class="click" (click)="onClick($event)">
+    CLICK ME ! {{ count }}
   </button>
 </section>

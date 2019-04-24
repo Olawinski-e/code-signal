@@ -4,13 +4,13 @@
       <h1>Welcome to XP Farmer</h1>
 
       <nav class="nav">
-        <a href="#" class="nav-item nav-item1"
+        <a routerLink="/" href="#" class="nav-item nav-item1"
           >Home
           <div class="line"></div
         ></a>
 
-        <a href="#" class="nav-item nav-item2">
-          Parameters
+        <a routerLink="/settings" href="#" class="nav-item nav-item2">
+          Settings
           <div class="line"></div
         ></a>
       </nav>
@@ -21,7 +21,7 @@
         <div *ngIf="user" class="text-14px user-name">
           Hello {{ user.firstname }} {{ user.lastname }}
         </div>
-        <p class="text-10px text-left">Level: {{ user.level }}</p>
+        <p class="text-10px text-left">Level: {{ user.stats.level }}</p>
         <div class="progress"><div class="progress-bar"></div></div>
         <p class="text-10px grey next-level">
           Next level in 1234 points

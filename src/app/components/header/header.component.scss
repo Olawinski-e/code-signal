@@ -36,7 +36,7 @@
         padding-right: 40px;
       }
 
-      a.nav-item1:active {
+      a.nav-item1:focus {
         display: flex;
         color: $text-white;
         .line {
@@ -47,7 +47,7 @@
             }
             100% {
               background-color: $bg-blue;
-              left: 30.8%;
+              left: 30.6%;
             }
           }
           background-color: $bg-blue;
@@ -55,7 +55,7 @@
           top: 70px;
           height: 2px;
           width: 10px;
-          left: 30.8%;
+          left: 30.6%;
           animation-duration: 1s;
           animation-name: linemove;
         }
@@ -68,13 +68,13 @@
           top: 70px;
           height: 2px;
           width: 10px;
-          left: 30.8%;
+          left: 30.6%;
           animation-name: linemove;
           animation-duration: 1s;
         }
       }
 
-      a.nav-item2:active {
+      a.nav-item2:focus {
         display: flex;
         color: $text-white;
         .line {
@@ -85,7 +85,7 @@
             }
             100% {
               background-color: $bg-blue;
-              left: 41%;
+              left: 40%;
             }
           }
           background-color: $bg-blue;
@@ -93,7 +93,7 @@
           top: 70px;
           height: 2px;
           width: 10px;
-          left: 41%;
+          left: 40%;
           animation-name: linemove2;
           animation-duration: 1.2s;
         }
@@ -106,7 +106,7 @@
           top: 70px;
           height: 2px;
           width: 10px;
-          left: 41%;
+          left: 40%;
           animation-name: linemove2;
           animation-duration: 1.2s;
         }

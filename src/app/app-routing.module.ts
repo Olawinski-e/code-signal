@@ -10,7 +10,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "parametres",
+    path: "settings",
     component: SettingsComponent
   }
 ];
